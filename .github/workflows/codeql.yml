@@ -9,6 +9,7 @@ on:
       - apps/**
       - '!apps/docs/**'
       - libraries/**
+  workflow_dispatch:
 
 jobs:
   analyze:
